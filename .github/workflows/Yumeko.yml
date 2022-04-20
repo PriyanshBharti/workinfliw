@@ -34,7 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           cd YumekoRobot
+           cd Yumeko/YumekoRobot
            docker build -t main . && docker run YumekoRobot
            
        - name: Loop workflow
