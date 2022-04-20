@@ -34,7 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           cd main
+           cd start
            docker build -t main . && docker run main
            
        - name: Loop workflow
